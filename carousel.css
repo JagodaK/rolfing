@@ -58,7 +58,8 @@ footer {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -84,7 +85,7 @@ footer {
 } 
 
 #navbar ul li:last-child {
-  float: right;
+  /*float: right;*/
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -153,7 +154,7 @@ footer {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
   }
   .navbar-wrapper .container {
     padding-right: 15px;
